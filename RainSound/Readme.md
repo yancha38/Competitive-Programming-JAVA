@@ -1,6 +1,9 @@
-Rain Sound
- * You like the sound of rain only if the sound ranges from 'l' to 'r' units. Every cloud makes 's' unit of sound. 
- Determine the minimum and the maximum number of clouds that can produce the sound in the provided range.
+*Rain Sound*
+
+<br>
+
+ _You like the sound of rain only if the sound ranges from 'l' to 'r' units. Every cloud makes 's' unit of sound. 
+ Determine the minimum and the maximum number of clouds that can produce the sound in the provided range._
 
    Input format
    First line: One integer T denoting the number of test cases
@@ -13,16 +16,20 @@ Rain Sound
  
    Note: Print "-1 -1" if no answer is available.
   
-   Constraints :
+ **Constraints:**
+   
    1 <= T <= 100000
+   <br>
    1 <= l <= r <= 10^9
+   <br>
    1 <= s <= 10^9
   
-   Input :           Output :
-   3                 2 3
-   5 10 3            2 3
-   7 12 4            50 60
-   50 60 1
+  |   Input    |     Output     |
+  | :-----  | :---- |
+  | 3          |       2 3 |
+  | 5 10 3      |      2 3 |
+  | 7 12 4  |    50 60 |
+  | 50 60 1 | |
  
  * Explanation :
    In the first test of the sample the answer 2 3 is because 2 * 3 = 6 which is in [5,10] and 3 * 3 = 9 which is also in 
